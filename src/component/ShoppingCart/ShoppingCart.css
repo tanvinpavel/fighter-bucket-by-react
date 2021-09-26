@@ -1,0 +1,10 @@
+.fixed{
+    position: fixed;
+    height: 300px;
+}
+.color{
+    color: #34495e;
+}
+.scroll{
+    overflow-y: scroll;
+}

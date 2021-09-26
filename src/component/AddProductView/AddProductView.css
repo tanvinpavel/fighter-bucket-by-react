@@ -1,0 +1,9 @@
+.product-view{
+    max-width: 300px;
+}
+.custom-padding{
+    padding: 0 10px;
+}
+.custom-padding p{
+    margin-bottom: 0;
+}

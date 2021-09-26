@@ -1,0 +1,20 @@
+.card-pic{
+    height: 185px;
+}
+.card-text p{
+    margin-bottom: 2px;
+}
+.button-color{
+    background-color: #34495e;
+    color: white;
+}
+.button{
+    background-color: #34495e;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+}
+.button:hover{
+    color: white;
+}
