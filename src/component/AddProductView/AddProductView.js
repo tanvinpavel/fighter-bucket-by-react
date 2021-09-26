@@ -5,7 +5,7 @@ const AddProductView = (props) => {
     const {img, name} = props
     return (
         <div>
-            <div className="card mb-3">
+            <div className="card mb-3 shadow-sm">
                 <div className="row g-0 product-view">
                     <div className="col-md-4">
                         <img src={img} className="img-fluid" alt="..."/>

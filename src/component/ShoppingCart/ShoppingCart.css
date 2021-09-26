@@ -1,6 +1,11 @@
-.fixed{
-    position: fixed;
-    height: 300px;
+.shopping-cart{
+    height: 350px;
+    width: 353px;
+}
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30px;
 }
 .color{
     color: #34495e;

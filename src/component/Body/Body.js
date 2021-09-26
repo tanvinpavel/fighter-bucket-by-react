@@ -7,6 +7,7 @@ import "./Body.css"
 const Body = () => {
     const [data, setData] = useState([]);
 
+    //API load here
     useEffect( () => {
         fetch("./fakeData.json")
             .then(res => res.json())
@@ -16,8 +17,7 @@ const Body = () => {
     const [addToCart, setAddToCart] = useState([]);
 
     const clickHandler = (singleItem) => {
-        // console.log("hello world");
-        // console.log(singleItem);
+        //selected product add here
         const saveProduct = [...addToCart, singleItem];
         setAddToCart(saveProduct);
     }
@@ -27,7 +27,7 @@ const Body = () => {
             <div className="container-fluid mt-5">
                 <div className="row">
                     <div className="col-md-9">
-                        <div className="row row-cols-1 row-cols-md-3 g-4">
+                        <div className="row row-cols-1 row-cols-md-4 g-4">
                             { data.map( item => <Card info={item} key={item.id} addClickHandler={clickHandler}></Card>) }
                         </div>
                     </div>

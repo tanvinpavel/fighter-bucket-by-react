@@ -9,7 +9,7 @@ const Card = (props) => {
 
     return (
         <div>
-            <div className="col">
+            <div className="col h-100">
                 <div className="card h-100">
                     <img src={img} className="card-img-top card-pic" alt="..." />
                     <div className="card-body">
@@ -20,7 +20,9 @@ const Card = (props) => {
                             <p><small><b>Manufacturers:</b> {manufacturers}</small></p>
                             <p><small><b>Cost:</b> ${cost}</small></p>
                         </div>
-                        <button onClick={() => {props.addClickHandler(props.info)}} className="button button-color mt-3">{element}<span className="mx-2">Add to cart</span></button>
+                        <div className="d-grid">
+                            <button onClick={() => {props.addClickHandler(props.info)}} className="button button-color mt-3">{element}<span className="mx-2">Add to cart</span></button>
+                        </div>
                     </div>
                 </div>
             </div>

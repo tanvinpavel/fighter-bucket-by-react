@@ -61,5 +61,41 @@
       "speed":"2,446 km/h",
       "manufacturers":"Mikoyan",
       "cost":50000000
+   },
+   {
+      "id":8888,
+      "name":"Mikoyan MiG-35",
+      "Role":"Multirole fighter",
+      "img":"https://s1.1zoom.me/big0/707/Fighter_Airplane_Airplane_Mikoyan_MiG-35_Russian_587661_1280x805.jpg",
+      "speed":"1,223 km/h",
+      "manufacturers":"Mikoyan",
+      "cost":55000000
+   },
+   {
+      "id":9999,
+      "name":"Sukhoi Su-35",
+      "Role":"Multi-role fighter aircraft",
+      "img":"https://www.teahub.io/photos/full/327-3278488_sukhoi-su-35-pics-military-collection-sukhoi-su.jpg",
+      "speed":"2,778 km/h",
+      "manufacturers":"Sukhoi",
+      "cost":55000000
+   },
+   {
+      "id":1212,
+      "name":"Chengdu J-10",
+      "Role":"Multirole fighter",
+      "img":"https://militarywatchmagazine.com/m/articles/2021/03/26/article_605daf1cb43d70_80752061.jpeg",
+      "speed":"2,327 km/h",
+      "manufacturers":"Chengdu Aircraft Industry Group",
+      "cost":35000000
+   },
+   {
+      "id":1313,
+      "name":"Sukhoi Su-57",
+      "Role":"Stealth Multirole fighter",
+      "img":"https://i.ytimg.com/vi/FE6CTvs_g9Y/maxresdefault.jpg",
+      "speed":"2,440 km/h",
+      "manufacturers":"Sukhoi",
+      "cost":65000000
    }
 ]

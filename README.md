@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# Welcome to my Fighter Bucket site
+# Fighter Bucket [Live site link](https://youthful-neumann-0df638.netlify.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
